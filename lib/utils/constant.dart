@@ -5,7 +5,12 @@ const kTempTextStyle = TextStyle(
   fontSize: 80.0,
 );
 
-const kMessageTextStyle = TextStyle(
+const kCityTextStyle = TextStyle(
   fontFamily: 'Spartan MB',
   fontSize: 36.0,
+);
+
+const kMessageTextStyle = TextStyle(
+  fontFamily: 'Spartan MB',
+  fontSize: 25.0,
 );
