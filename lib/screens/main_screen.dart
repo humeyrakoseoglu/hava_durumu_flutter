@@ -75,7 +75,7 @@ class _MainScreenState extends State<MainScreen> {
             Center(
               child: Text(
                 city,
-                style: kMessageTextStyle,
+                style: kCityTextStyle,
               ),
             ),
             const SizedBox(
