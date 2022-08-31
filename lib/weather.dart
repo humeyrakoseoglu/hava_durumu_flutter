@@ -60,7 +60,7 @@ class WeatherData {
     //hava iyi
     //gece gündüz kontrolü
     var now = new DateTime.now();
-    if (now.hour >= 19) {
+    if (6 >= now.hour && now.hour > 0 || now.hour >= 19 && now.hour < 24) {
       if (condition < 300) {
         return WeatherDisplayData(
             weatherIcon: const Icon(FontAwesomeIcons.cloudBolt,
